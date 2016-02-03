@@ -12,6 +12,12 @@
 		<result>/success.jsp</result>
 		<result name="input">/index.jsp</result>
 	</action>
+	<action name="testComplexProperty" class="com.tony.struts2.app.TestComplextPropertyAction">
+		<result>/success.jsp</result>
+	</action>
+	<action name="testConversion2" class="com.tony.struts2.app.TestCollectionAction">
+		<result>/success.jsp</result>
+	</action>
 
 		
 
